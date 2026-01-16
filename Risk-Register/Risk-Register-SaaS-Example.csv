@@ -1,0 +1,6 @@
+RiskID,AssetOrProcess,Threat,Vulnerability,Likelihood(1-5),Impact(1-5),InherentRisk,ExistingControls,Treatment,MitigationPlan,Owner,TargetDate,ResidualLikelihood,ResidualImpact,ResidualRisk,Status
+R-001,Production AWS Account,Credential theft,No MFA enforced for privileged users,4,5,20,Password policy,Mitigate,Enforce MFA + conditional access + rotate keys,Security,2026-02-28,2,4,8,In Progress
+R-002,Customer Data (PII),Unauthorized access,Over-permissive IAM roles,3,5,15,Basic IAM roles,Mitigate,Least privilege review + quarterly access recertifications,IT,2026-03-15,2,4,8,Planned
+R-003,SaaS Web Application,Ransomware,Inadequate backup testing,3,5,15,Backups enabled,Mitigate,Implement restore testing + immutable backups,IT,2026-03-30,2,4,8,Planned
+R-004,Employee Email,Phishing,Low security awareness coverage,4,4,16,Spam filtering,Mitigate,Security awareness training + phishing simulations,Security,2026-02-20,3,3,9,In Progress
+R-005,Payment Processor Vendor,Vendor data breach,Limited vendor due diligence,3,5,15,Contract clauses,Transfer,Vendor risk questionnaire + SOC report review,GRC,2026-03-10,2,4,8,Planned
