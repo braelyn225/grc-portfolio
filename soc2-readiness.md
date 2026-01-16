@@ -1,5 +1,18 @@
 # SOC 2 Readiness Checklist
 
+## 🎯 Framework Alignment
+
+| Framework | Coverage | Application |
+|-----------|----------|-------------|
+| **AICPA Trust Services Criteria** | Security (CC1-CC9), Availability, Confidentiality, Processing Integrity, Privacy | Complete TSC mapping for Type II audit readiness |
+| **ISO 27001** | Cross-reference with Annex A controls | Dual-framework compliance efficiency |
+| **SOC 2 Type II** | Control design and operating effectiveness | Evidence collection and 3-12 month observation period |
+
+**Deliverable:** SOC 2 readiness assessment with gap remediation plan  
+**Outcome:** Identified 12+ control gaps, documented remediation owners and target dates, established evidence collection processes
+
+**Business Value:** Demonstrates security maturity to customers and partners, meets SaaS vendor requirements, streamlines audit process.
+
 ## Scope & System Description
 - [ ] Define system boundaries and services
 - [ ] Identify in-scope applications, infrastructure, and data
